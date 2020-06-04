@@ -19,13 +19,15 @@ Route::get('/', function () {
 Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.'], function () {
     //后台首页
     Route::get('kukekubo','AdminController@index')->name('kukekubo');
+    Route::get('logout','SessionsController@logout')->name('logout');
 });
 //后台不需要验证的路由
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.'], function () {
     //登录
     Route::get('login','SessionsController@create')->name('login');
+    Route::post('store','SessionsController@store')->name('store');
+
 });
 
-//登录
-//Route::get('login','')->name();
+
 
