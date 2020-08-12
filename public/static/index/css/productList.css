@@ -1,0 +1,115 @@
+.product-title-box{
+  padding-top: 80px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  margin-bottom: 135px;
+}
+.info{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-bottom: 70px;
+}
+.info > .info-left{
+  width: 245px;
+  margin-right: 40px;
+}
+.info > .info-right{
+  width: 925px;
+}
+.info-nav{
+  background: #f2f2f2;
+  margin-bottom:50px;
+}
+.info-nav > li{
+  padding:20px;
+  padding-left:30px;
+  border-bottom: 1px dashed #e6e6e6;
+}
+.info-nav > li a{
+  color: #4c4c4c;
+}
+.info-title {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  vertical-align: top;
+  margin-bottom: 40px;
+}
+.info-title::before {
+  content: "";
+  display: inline-block;
+  height: 23px;
+  width: 5px;
+  background: #1555a4;
+  position: relative;
+  top: 3px;
+  margin-right: 15px;
+}
+.news-box{
+  background: #f2f2f2;
+  padding:30px 20px 0 20px
+}
+.QAbox{
+  overflow: hidden;
+  height: 540px;
+}
+.QAbox a{
+  display: block;
+  color: #333333;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+.QAbox a:hover{
+  color: #3e995c !important;
+}
+.QAbox a > h2{
+  font-size:14px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.QAbox a >p{
+  /* color: #666666; */
+  margin-bottom: 24px;
+  line-height: 20px;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.info-right > ul{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.info-right > ul li {
+  margin: 0 11px;
+  margin-bottom: 70px;
+}
+.info-right > ul li a{
+  display: block;
+  color: #333333;
+}
+.info-right > ul li a .img-box{
+  width: 282px;
+  height: 239px;
+  overflow: hidden;
+}
+.info-right > ul li a .img-box >img{
+  width: 100%;
+  height: 100%;
+}
+.info-right > ul li a p{
+  margin-top: 15px;
+  text-align: center;
+}
+
+

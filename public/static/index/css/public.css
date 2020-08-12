@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:"PingFang SC", "Lantinghei SC", "Microsoft YaHei", "HanHei SC", "Helvetica Neue", "Open Sans", Arial, "Hiragino Sans GB", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
+    list-style: none;
+}
+
+/* 头部开始 */
+body{
+    background: url(../images/shading.jpg);
+}
+.max-box{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../images/shading.jpg);
+}
+.ins-box{
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top-nav{
+    background: #1555a4;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+.left-top-nav{
+    float: left;
+    font-size: 14px;
+
+}
+.right-top-nav{
+    float: right;
+    list-style: none;
+}
+.right-top-nav>li{
+    display: inline-block;
+    font-size: 14px;
+
+}
+.right-top-nav>li a{
+    color: #fff;
+    font-size: 14px; 
+}
+.icon-xiaoxi{
+    margin: 0 10px;
+    font-size: 10px;
+}
+.nav-box{
+    background: url(../images/shading.jpg);
+    height: 105px;
+}
+.nav-box> .ins-box{
+    line-height: 105px;
+}
+.logo-box{
+    float: left;
+    margin: 20px 0;
+}
+.logo-box>a{
+    display: block;
+    width: 235px;
+    height: 56px;
+}
+.nav-list{
+    float: right;
+}
+.nav-list > ul > li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 40px;
+    
+}
+.nav-list > ul > li > a{
+    color: #333;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.active-nav > a{
+    font-weight: bold;
+    color: #1555a4 !important;
+    background: url(../images/nav-jiantou.png) no-repeat  center 70%;
+
+}
+
+/* 头部结束 */
+
+/* 尾部开始 */
+
+.footer-box{
+    background: #1555a4;
+}
+.footer-list{
+    box-sizing: border-box;
+    padding: 50px 0;
+    height: 315px;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-list p{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer-list >div{
+    /* border: 1px solid #fff; */
+    width: 25%;
+    background: url(../images/baixina.png) no-repeat;
+
+}
+.footer-list >div >ul{
+    list-style: none;
+}
+.footer-list >div >ul >li{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-list >div >ul >li:first-child>a{
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer-list >div >ul >li > a{
+    color: #fff;
+    font-size: 12px;
+}
+.footer-bottom{
+    background: #0d407e;
+}
+.footer-bottom > div{
+    background: #0d407e;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    color: #fff;
+}
+.footer-bottom a{
+    color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+}
+/* 尾部结束 */
+
+.gotop{
+    width: 53px;
+    height: 61px;
+    background: #fff;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 80px;
+    right: 215px;;
+    text-align: center;
+    line-height: 61px;
+    box-shadow: 0px 0px 6px #666363;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+}
+.gotop img{
+    margin-top: 8px;
+}
+
+.crumbs-box{
+    /* margin: 25px auto !important; */
+    padding: 25px 0;
+}
+.crumbs-box span{
+    margin: 0 5px;
+}

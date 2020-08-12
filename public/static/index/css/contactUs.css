@@ -1,0 +1,133 @@
+.contactUs-top{
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+.contactUs-top > div{
+  width: 600px;
+  height: 700px;
+}
+.contactUs-top > div:first-child{
+  background: url(../images/contactUs_bg.jpg) 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  box-sizing: border-box;
+  padding: 50px;
+  z-index: 2;
+}
+.contactUs-box > .map-box{
+  height: 635px;
+  width: 100%;
+  /* background: pink; */
+  margin-top: -95px;
+  position: relative;
+}
+.input-box {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.input-box i {
+  position: absolute;
+  top: 16px;
+  color: #fff;
+  font-size: 18px;
+ 
+}
+
+.input-box input{
+  border:none;
+  border-bottom: 1px solid #777878;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: transparent;
+  padding: 18px;
+  width:100%;
+  text-indent: 15px;
+}
+.input-box textarea{
+  box-sizing: border-box;
+  width: 99%;
+  height: 175px;
+  padding: 22px 15px;
+  resize: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #777878;
+  background: transparent;
+}
+.input-box input[type='submit']{
+  display: inline-block;
+  width: auto;
+  background: #3e9a5c;
+  padding: 12px 20px;
+  text-indent: 0;
+  border-radius: 20px;
+  border: none;
+}
+.input-box input::-webkit-input-placeholder,.input-box textarea::-webkit-input-placeholder{
+  color:#fff;
+  text-indent: 15px;
+}
+.input-box input::-moz-placeholder,.input-box textarea::-webkit-input-placeholder{   /* Mozilla Firefox 19+ */
+  color:#fff;
+  text-indent: 15px;
+}
+.input-box input:-moz-placeholder,.input-box textarea::-webkit-input-placeholder{    /* Mozilla Firefox 4 to 18 */
+  color:#fff;
+  text-indent: 15px;
+}
+.input-box input:-ms-input-placeholder,.input-box textarea::-webkit-input-placeholder{  /* Internet Explorer 10-11 */ 
+  color:#fff;
+  text-indent: 15px;
+}
+
+.desc{
+  font-size: 14px;
+  color: #4c4c4c;
+}
+.desc ul {
+  margin-top: 35px;
+  margin-bottom: 75px;
+}
+.desc ul li{
+  margin-bottom: 15px;
+  list-style: none;
+}
+.desc a{
+  background: #3e9a5c;
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+}
+.contactUs-top > div:last-child{
+  box-sizing: border-box;
+  padding-left: 115px;
+  display: flex;
+  align-items: center;
+}
+#map-container{
+  width: 100%;
+  height: 635px;
+}
+.Mask{
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.62);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.star{
+  position: absolute;
+  top: 280px;
+  left: 927px;
+  width: 50px;
+  z-index: 1;
+}

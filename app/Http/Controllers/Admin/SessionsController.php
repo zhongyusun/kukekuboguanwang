@@ -7,6 +7,15 @@ use Illuminate\Http\Request;
 
 class SessionsController extends Controller
 {
+    //只让未登录用户访问登录页面：
+    public function __construct(){
+
+        $this->middleware('guest',[
+            'only' =>['create'],
+        ]);
+    }
+
+
     //登录页面
     public function create(){
 

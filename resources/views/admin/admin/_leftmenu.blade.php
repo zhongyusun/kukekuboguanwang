@@ -3,251 +3,225 @@
         <ul id="nav">
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="会员管理">&#xe6b8;</i>
-                    <cite>会员管理</cite>
+                    <i class="iconfont left-nav-li" lay-tips="留言管理">&#xe6b8;</i>
+                    <cite>留言管理</cite>
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('统计页面','welcome1.html')">
+                        <a onclick="xadmin.add_tab('留言列表','{{route('admin.message')}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>统计页面</cite></a>
+                            <cite>留言列表</cite></a>
+                    </li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont left-nav-li" lay-tips="方案设计">&#xe6b8;</i>
+                    <cite>方案设计</cite>
+                    <i class="iconfont nav_right">&#xe697;</i></a>
+                <ul class="sub-menu">
+                    <li>
+                        <a onclick="xadmin.add_tab('方案设计','{{route('admin.design.index')}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>方案设计</cite></a>
+                    </li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont left-nav-li" lay-tips="友链管理">&#xe6b8;</i>
+                    <cite>友链管理</cite>
+                    <i class="iconfont nav_right">&#xe697;</i></a>
+                <ul class="sub-menu">
+                    <li>
+                        <a onclick="xadmin.add_tab('友链列表','{{route('admin.link.index')}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>友联列表</cite></a>
+                    </li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont left-nav-li" lay-tips="产品">&#xe723;</i>
+                    <cite>产品</cite>
+                    <i class="iconfont nav_right">&#xe697;</i></a>
+                <ul class="sub-menu">
+                    <li>
+                        <a onclick="xadmin.add_tab('产品分类列表','{{route('admin.classify.index')}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>产品分类列表</cite></a>
                     </li>
                     <li>
-                        <a onclick="xadmin.add_tab('会员列表(静态表格)','member-list.html')">
+                        <a onclick="xadmin.add_tab('产品详情列表','{{route('admin.product.index')}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>会员列表(静态表格)</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('会员列表(动态表格)','member-list1.html',true)">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>会员列表(动态表格)</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('会员删除','member-del.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>会员删除</cite></a>
-                    </li>
-                    <li>
-                        <a href="javascript:;">
-                            <i class="iconfont">&#xe70b;</i>
-                            <cite>会员管理</cite>
-                            <i class="iconfont nav_right">&#xe697;</i></a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a onclick="xadmin.add_tab('会员删除','member-del.html')">
-                                    <i class="iconfont">&#xe6a7;</i>
-                                    <cite>会员删除</cite></a>
-                            </li>
-                            <li>
-                                <a onclick="xadmin.add_tab('等级管理','member-list1.html')">
-                                    <i class="iconfont">&#xe6a7;</i>
-                                    <cite>等级管理</cite></a>
-                            </li>
-                        </ul>
+                            <cite>产品详情列表</cite></a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="订单管理">&#xe723;</i>
-                    <cite>订单管理</cite>
+                    <i class="iconfont left-nav-li" lay-tips="优势管理">&#xe723;</i>
+                    <cite>优势管理</cite>
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('订单列表','order-list.html')">
+                        <a onclick="xadmin.add_tab('优势管理列表','{{route('admin.advantage.index')}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>订单列表</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('订单列表1','order-list1.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>订单列表1</cite></a>
+                            <cite>优势管理列表</cite></a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="分类管理">&#xe723;</i>
-                    <cite>分类管理</cite>
+                    <i class="iconfont left-nav-li" lay-tips="资讯管理">&#xe723;</i>
+                    <cite>资讯管理</cite>
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('多级分类','cate.html')">
+                        <a onclick="xadmin.add_tab('资讯列表','{{route('admin.information.index')}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>多级分类</cite></a>
+                            <cite>资讯列表</cite></a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="城市联动">&#xe723;</i>
-                    <cite>城市联动</cite>
+                    <i class="iconfont left-nav-li" lay-tips="合作案例">&#xe723;</i>
+                    <cite>合作案例</cite>
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('三级地区联动','city.html')">
+                        <a onclick="xadmin.add_tab('行业分类','{{route('admin.casecategory.index')}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>三级地区联动</cite></a>
+                            <cite>行业分类</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('案例列表','{{route('admin.case.index')}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>案例列表</cite></a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:;">
+                    <i class="iconfont left-nav-li" lay-tips="公司管理">&#xe6ce;</i>
+                    <cite>网站标签管理</cite>
+                    <i class="iconfont nav_right">&#xe697;</i></a>
+                <ul class="sub-menu">
+                    <li>
+                        <a onclick="xadmin.add_tab('首页','{{route('admin.sign.edit',['sign'=>'shouye'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>首页</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('产品和服务','{{route('admin.sign.edit',['sign'=>'product'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>产品和服务</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('新闻中心','{{route('admin.sign.edit',['sign'=>'news'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>新闻中心</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('我们的公司','{{route('admin.sign.edit',['sign'=>'about'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>我们的公司</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('更赞的用户体验','{{route('admin.sign.edit',['sign'=>'ue'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>更赞的用户体验</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('联系我们','{{route('admin.sign.edit',['sign'=>'us'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>联系我们</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('网站地图','{{route('admin.sign.edit',['sign'=>'map'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>网站地图</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('方案列表','{{route('admin.sign.edit',['sign'=>'fangan'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>方案列表</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('案例列表','{{route('admin.sign.edit',['sign'=>'case'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>案例列表</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('方案设计','{{route('admin.sign.edit',['sign'=>'design'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>方案设计</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('优势列表','{{route('admin.sign.edit',['sign'=>'advantage'])}}')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>优势列表</cite></a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="管理员管理">&#xe726;</i>
-                    <cite>管理员管理</cite>
+                    <i class="iconfont left-nav-li" lay-tips="banner图管理">&#xe6ce;</i>
+                    <cite>banner图管理</cite>
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('管理员列表','admin-list.html')">
+                        <a onclick="xadmin.add_tab('banner图管理','{{route('admin.banner.index')}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>管理员列表</cite></a>
+                            <cite>banner图列表</cite></a>
                     </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('角色管理','admin-role.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>角色管理</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('权限分类','admin-cate.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>权限分类</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('权限管理','admin-rule.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>权限管理</cite></a>
-                    </li>
+
                 </ul>
             </li>
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="系统统计">&#xe6ce;</i>
-                    <cite>系统统计</cite>
+                    <i class="iconfont left-nav-li" lay-tips="方案设置">&#xe6ce;</i>
+                    <cite>方案设置</cite>
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('拆线图','echarts1.html')">
+                        <a onclick="xadmin.add_tab('方案分类','{{route('admin.fanganlist.index')}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>拆线图</cite></a>
+                            <cite>方案分类</cite></a>
                     </li>
                     <li>
-                        <a onclick="xadmin.add_tab('拆线图','echarts2.html')">
+                        <a onclick="xadmin.add_tab('方案列表','{{route('admin.fangan.index')}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>拆线图</cite></a>
+                            <cite>方案列表</cite></a>
                     </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('地图','echarts3.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>地图</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('饼图','echarts4.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>饼图</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('雷达图','echarts5.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>雷达图</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('k线图','echarts6.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>k线图</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('热力图','echarts7.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>热力图</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('仪表图','echarts8.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>仪表图</cite></a>
-                    </li>
+
                 </ul>
             </li>
             <li>
                 <a href="javascript:;">
                     <i class="iconfont left-nav-li" lay-tips="图标字体">&#xe6b4;</i>
-                    <cite>图标字体</cite>
+                    <cite>网站设置</cite>
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('图标对应字体','unicode.html')">
+                        <a onclick="xadmin.add_tab('网站基础设置','{{route('admin.config.edit',['config'=>'site'])}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>图标对应字体</cite></a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="其它页面">&#xe6b4;</i>
-                    <cite>其它页面</cite>
-                    <i class="iconfont nav_right">&#xe697;</i></a>
-                <ul class="sub-menu">
-                    <li>
-                        <a href="login.html" target="_blank">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>登录页面</cite></a>
+                            <cite>网站基础设置</cite></a>
                     </li>
                     <li>
-                        <a onclick="xadmin.add_tab('错误页面','error.html')">
+                        <a onclick="xadmin.add_tab('公司设置','{{route('admin.config.edit',['config'=>'company'])}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>错误页面</cite></a>
+                            <cite>公司设置</cite></a>
                     </li>
                     <li>
-                        <a onclick="xadmin.add_tab('示例页面','demo.html')">
+                        <a onclick="xadmin.add_tab('banner下','{{route('admin.config.edit',['config'=>'banner'])}}')">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>示例页面</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('更新日志','log.html')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>更新日志</cite></a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="第三方组件">&#xe6b4;</i>
-                    <cite>layui第三方组件</cite>
-                    <i class="iconfont nav_right">&#xe697;</i></a>
-                <ul class="sub-menu">
-                    <li>
-                        <a onclick="xadmin.add_tab('滑块验证','https://fly.layui.com/extend/sliderVerify/')" target="">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>滑块验证</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('富文本编辑器','https://fly.layui.com/extend/layedit/')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>富文本编辑器</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('eleTree 树组件','https://fly.layui.com/extend/eleTree/')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>eleTree 树组件</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('图片截取','https://fly.layui.com/extend/croppers/')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>图片截取</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('formSelects 4.x 多选框','https://fly.layui.com/extend/formSelects/')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>formSelects 4.x 多选框</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('Magnifier 放大镜','https://fly.layui.com/extend/Magnifier/')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>Magnifier 放大镜</cite></a>
-                    </li>
-                    <li>
-                        <a onclick="xadmin.add_tab('notice 通知控件','https://fly.layui.com/extend/notice/')">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>notice 通知控件</cite></a>
+                            <cite>banner下</cite></a>
                     </li>
                 </ul>
             </li>

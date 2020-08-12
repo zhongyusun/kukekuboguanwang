@@ -1,0 +1,238 @@
+.ckcb-title {
+  margin: 70px 0 50px 0;
+  text-align: center;
+}
+.case-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 110px;
+}
+.case-list > li {
+  padding: 8px 15px;
+  background: #e5e5e5;
+  border-radius: 25px;
+}
+.case-list > li > a {
+  color: #999999;
+  font-size: 14px;
+}
+.case-active {
+  background: #3e995c !important;
+}
+.case-active a {
+  color: #ffffff !important;
+}
+.case-top-box {
+  display: flex;
+}
+.case-top-box > div {
+  box-sizing: border-box;
+  /* flex: 1; */
+  width: 600px;
+  height: 350px;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+.case-top-box > div > img {
+  width: 100%;
+}
+.case-top-box > div:last-child {
+  padding-top: 55px;
+  padding-left: 50px;
+  padding-right: 35px;
+}
+.case-top-box > div:last-child > h1 {
+  color: #333333;
+  font-size: 18px;
+}
+.case-top-box > div:last-child > span {
+  color: #666666;
+  font-size: 12px;
+}
+.case-top-box > div:last-child > p {
+  color: #4c4c4c;
+  font-size: 14px;
+  margin: 45px 0;
+  line-height: 14px;
+  line-height: 24px;
+}
+.case-top-box > div:last-child > a {
+  color: #3e995c;
+  border: 1px solid #3e995c;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.case-bottom-box {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  /* background: #ffffff; */
+  margin-top: 45px;
+}
+.case-bottom-box > div {
+  height: 1575px;
+}
+.case-left-box {
+  width: 845px;
+  /* background: #ffffff; */
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/ 
+  /*justify-content: space-between;*/
+}
+.case-content {
+  width: 405px;
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+.case-content > .content-img {
+  width: 405px;
+  height: 305px;
+  overflow: hidden;
+}
+.case-content > .content-img > img {
+  width: 100%;
+}
+.case-content > h2 {
+  color: #333333;
+  font-size: 16px;
+  margin-top: 25px;
+}
+.case-content > span {
+  font-size: 12px;
+  color: #666666;
+}
+.case-content > p {
+  color: #4c4c4c;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.case-content > a {
+  display: inline-block;
+  color: #3e995c;
+  border: 1px solid #3e995c;
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 10px 18px;
+  transition: all 0.8s;
+}
+.case-content > a:hover {
+  background: #3e995c;
+  color: #ffffff;
+}
+.case-right-box {
+  box-sizing: border-box;
+  background: #f2f2f2;
+  width: 295px;
+  padding: 25px 28px;
+  /* padding-left: 28px; */
+}
+.right-title {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  vertical-align: top;
+  margin-bottom: 40px;
+}
+.right-title::before {
+  content: "";
+  display: inline-block;
+  height: 23px;
+  width: 5px;
+  background: #1555a4;
+  position: relative;
+  top: 3px;
+  margin-right: 15px;
+}
+
+.hot-products > a {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  color: #333;
+  transition: all .5s;
+}
+.hot-products > a:hover{
+  color: #3e995c;
+}
+.hot-products > a > img {
+  width: 248px;
+  height: 210px;
+}
+.hot-products > a > p {
+  margin-top: 10px;
+  margin-bottom: 27px;
+}
+
+.QAbox{
+  overflow: hidden;
+  height: 540px;
+}
+.QAbox a{
+  display: block;
+  color: #333333;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+.QAbox a:hover{
+  color: #3e995c !important;
+}
+.QAbox a > h2{
+  font-size:14px;
+  margin-bottom: 10px;
+}
+.QAbox a >p{
+  /* color: #666666; */
+  margin-bottom: 24px;
+  line-height: 20px;
+}
+.paging-box{
+  margin: 70px auto;
+  color: #8c8c8c;
+  text-align: center;
+}
+.paging-box >ul{
+  display: inline-block;
+}
+.paging-box >ul >li{
+  display: inline-block;
+  border: 1px solid #e8ebed;
+  padding: 15px 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #ffffff;
+}
+.paging-box >ul >li>a{
+  color: #8c8c8c;
+}
+.paging-active{
+  background: #3e995c !important;
+}
+.paging-active a{
+  color: #ffffff !important;
+}
+.paging-box > form{
+  display: inline-block;
+
+}
+.paging-box > form> input[type='text']{
+  width: 58px;
+  height: 42px;
+  border: 1px solid #e8ebed;
+  border-radius: 25px;
+  text-align: center;
+}
+.paging-box > form> input[type='submit']{
+  color: #3e995c;
+  border: 1px solid #3e995c;
+  border-radius: 25px;
+  padding: 15px 20px;
+  background: transparent;
+  background: #ffffff;
+}
+.paging-box > form span{
+  margin: 0 10px;
+}

@@ -2,26 +2,7 @@
 @section('title','首页')
 @section('content')
     <!-- 顶部开始 -->
-    <div class="container">
-        <div class="logo">
-            <a href="{{route('admin.kukekubo')}}">库克库伯后台管理</a></div>
-        <div class="left_open">
-            <a><i title="展开左侧栏" class="iconfont">&#xe699;</i></a>
-        </div>
-
-        </ul>
-        <ul class="layui-nav right" lay-filter="">
-            <li class="layui-nav-item">
-                <a href="javascript:;">管理员</a>
-                <dl class="layui-nav-child">
-                    <dd>
-                        <a href="{{route('admin.logout')}}">退出</a></dd>
-                </dl>
-            </li>
-            <li class="layui-nav-item to-index">
-                <a href="/">前台首页</a></li>
-        </ul>
-    </div>
+@include('admin.admin._top_container')
     <!-- 顶部结束 -->
     <!-- 中部开始 -->
     <!-- 左侧菜单开始 -->
@@ -40,11 +21,11 @@
                     <dd data-type="other">关闭其它</dd>
                     <dd data-type="all">关闭全部</dd></dl>
             </div>
-{{--            <div class="layui-tab-content">--}}
-{{--                <div class="layui-tab-item layui-show">--}}
-{{--                    <iframe src='{{asset('static/admin')}}/welcome.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>--}}
-{{--                </div>--}}
-{{--            </div>--}}
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <iframe src='{{asset('static/admin')}}/welcome1.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
+                </div>
+            </div>
             <div id="tab_show"></div>
         </div>
     </div>
@@ -52,7 +33,11 @@
     <style id="theme_style"></style>
     <!-- 右侧主体结束 -->
     <!-- 中部结束 -->
-
+    <script>
+        
+            
+      
+    </script>
     @stop
 
 
